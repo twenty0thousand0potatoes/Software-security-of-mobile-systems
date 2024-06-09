@@ -1,0 +1,125 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Мессенджер API",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/register": {
+      "post": {
+        "tags": ["Регистрация"],
+        "summary": "Регистрация нового пользователя",
+        "description": "Регистрирует нового пользователя в мессенджере",
+        "parameters": [
+          {
+            "name": "username",
+            "in": "formData",
+            "description": "Имя пользователя",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "password",
+            "in": "formData",
+            "description": "Пароль пользователя",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Успешная регистрация"
+          },
+          "400": {
+            "description": "Ошибка при регистрации"
+          }
+        }
+      }
+    },
+    "/send": {
+      "post": {
+        "tags": ["Отправка сообщений"],
+        "summary": "Отправка сообщения",
+        "description": "Отправляет сообщение от авторизованного пользователя",
+        "parameters": [
+          {
+            "name": "message",
+            "in": "formData",
+            "description": "Текст сообщения",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Сообщение отправлено"
+          },
+          "401": {
+            "description": "Пользователь не авторизован"
+          }
+        }
+      }
+    },
+    "/receive": {
+      "get": {
+        "tags": ["Получение сообщений"],
+        "summary": "Получение новых сообщений",
+        "description": "Получает новые сообщения для авторизованного пользователя",
+        "responses": {
+          "200": {
+            "description": "Список новых сообщений"
+          },
+          "401": {
+            "description": "Пользователь не авторизован"
+          }
+        }
+      }
+    },
+    "/login": {
+      "post": {
+        "tags": ["Авторизация"],
+        "summary": "Авторизация пользователя",
+        "description": "Авторизует пользователя для доступа к функционалу мессенджера",
+        "parameters": [
+          {
+            "name": "username",
+            "in": "formData",
+            "description": "Имя пользователя",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "password",
+            "in": "formData",
+            "description": "Пароль пользователя",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Успешная авторизация"
+          },
+          "401": {
+            "description": "Ошибка при авторизации"
+          }
+        }
+      }
+    },
+    "/status": {
+      "get": {
+        "tags": ["Статус"],
+        "summary": "Проверка статуса",
+        "description": "Проверяет статус авторизации пользователя",
+        "responses": {
+          "200": {
+            "description": "Пользователь авторизован"
+          },
+          "401": {
+            "description": "Пользователь не авторизован"
+          }
+        }
+      }
+    }
+  }
+}
