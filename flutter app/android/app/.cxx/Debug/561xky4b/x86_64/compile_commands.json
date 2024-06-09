@@ -1,0 +1,7 @@
+[
+{
+  "directory": "D:/Flutter_Native/android/app/.cxx/Debug/561xky4b/x86_64",
+  "command": "C:\\Users\\Pay4ok\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/Pay4ok/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Pay4ok/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o CMakeFiles\\native-lib.dir\\func.c.o -c D:\\Flutter_Native\\android\\app\\src\\main\\cpp\\func.c",
+  "file": "D:\\Flutter_Native\\android\\app\\src\\main\\cpp\\func.c"
+}
+]

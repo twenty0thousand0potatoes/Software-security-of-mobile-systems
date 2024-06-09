@@ -1,0 +1,14 @@
+# ninja log v5
+1	57	738256058	CMakeFiles/native-lib.dir/func.c.o	11ff071aa4732361
+57	182	738256058	D:/Flutter_Native/build/app/intermediates/cxx/Debug/561xky4b/obj/armeabi-v7a/libnative-lib.so	4a1ac060f8cf92e7
+2	195	738261422	D:/Flutter_Native/build/app/intermediates/cxx/Debug/561xky4b/obj/armeabi-v7a/libnative-lib.so	4a1ac060f8cf92e7
+1	83	738296585	CMakeFiles/native-lib.dir/func.c.o	11ff071aa4732361
+84	215	738296585	D:/Flutter_Native/build/app/intermediates/cxx/Debug/561xky4b/obj/armeabi-v7a/libnative-lib.so	4a1ac060f8cf92e7
+1	69	738296929	CMakeFiles/native-lib.dir/func.c.o	11ff071aa4732361
+69	182	738296929	D:/Flutter_Native/build/app/intermediates/cxx/Debug/561xky4b/obj/armeabi-v7a/libnative-lib.so	4a1ac060f8cf92e7
+0	68	738298824	CMakeFiles/native-lib.dir/func.c.o	11ff071aa4732361
+68	168	738298824	D:/Flutter_Native/build/app/intermediates/cxx/Debug/561xky4b/obj/armeabi-v7a/libnative-lib.so	4a1ac060f8cf92e7
+1	60	738326579	CMakeFiles/native-lib.dir/func.c.o	11ff071aa4732361
+61	150	738326579	D:/Flutter_Native/build/app/intermediates/cxx/Debug/561xky4b/obj/armeabi-v7a/libnative-lib.so	4a1ac060f8cf92e7
+3	192	739563527	CMakeFiles/native-lib.dir/func.c.o	11ff071aa4732361
+192	333	739563527	D:/Flutter_Native/build/app/intermediates/cxx/Debug/561xky4b/obj/armeabi-v7a/libnative-lib.so	4a1ac060f8cf92e7

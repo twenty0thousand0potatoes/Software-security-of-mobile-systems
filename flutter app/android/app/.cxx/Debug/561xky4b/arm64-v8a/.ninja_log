@@ -1,0 +1,16 @@
+# ninja log v5
+1	90	738256057	CMakeFiles/native-lib.dir/func.c.o	7157265a82c904ea
+90	205	738256057	D:/Flutter_Native/build/app/intermediates/cxx/Debug/561xky4b/obj/arm64-v8a/libnative-lib.so	e10a2a2f078866f7
+10	741	738261422	D:/Flutter_Native/build/app/intermediates/cxx/Debug/561xky4b/obj/arm64-v8a/libnative-lib.so	e10a2a2f078866f7
+1	201	738293089	CMakeFiles/native-lib.dir/func.c.o	c5689351b67182b0
+14	99	738293160	CMakeFiles/native-lib.dir/func.c.o	c5689351b67182b0
+2	52	738296584	CMakeFiles/native-lib.dir/func.c.o	7157265a82c904ea
+52	152	738296584	D:/Flutter_Native/build/app/intermediates/cxx/Debug/561xky4b/obj/arm64-v8a/libnative-lib.so	e10a2a2f078866f7
+1	135	738296929	CMakeFiles/native-lib.dir/func.c.o	7157265a82c904ea
+135	333	738296929	D:/Flutter_Native/build/app/intermediates/cxx/Debug/561xky4b/obj/arm64-v8a/libnative-lib.so	e10a2a2f078866f7
+0	131	738298823	CMakeFiles/native-lib.dir/func.c.o	7157265a82c904ea
+131	222	738298823	D:/Flutter_Native/build/app/intermediates/cxx/Debug/561xky4b/obj/arm64-v8a/libnative-lib.so	e10a2a2f078866f7
+0	58	738326578	CMakeFiles/native-lib.dir/func.c.o	7157265a82c904ea
+58	141	738326579	D:/Flutter_Native/build/app/intermediates/cxx/Debug/561xky4b/obj/arm64-v8a/libnative-lib.so	e10a2a2f078866f7
+17	812	739563525	CMakeFiles/native-lib.dir/func.c.o	7157265a82c904ea
+812	1221	739563526	D:/Flutter_Native/build/app/intermediates/cxx/Debug/561xky4b/obj/arm64-v8a/libnative-lib.so	e10a2a2f078866f7
